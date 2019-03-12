@@ -87,12 +87,12 @@ namespace ConsoleApp1
                 if (street_name.ToLower() == post.street.ToString().ToLower() && (door_number.ToLower() == post.house_number.ToString().ToLower()
                     && (City_post_cod.ToLower() == post.post_code.ToString().ToLower() && (City_name.ToLower() == post.city.ToString().ToLower()))))
                 {
-                    Console.WriteLine("-------------");
-                    Console.WriteLine(post.street);
-                    Console.Write(post.house_number); Console.Write(" "+post.floor); Console.WriteLine(" "+post.side_tv_th_mf_ect);
-                    Console.WriteLine(post.post_code);
-                    Console.WriteLine(post.city);
-                    Console.WriteLine("-------------");
+                    Console.WriteLine("--------------------------------------" );
+                    Console.WriteLine(" .   .   .   "+post.street);
+                    Console.Write(" .   .   .   " + post.house_number); Console.Write(" "+post.floor); Console.WriteLine(" "+post.side_tv_th_mf_ect);
+                    Console.WriteLine(" .   .   .   " + post.post_code);
+                    Console.WriteLine(" .   .   .   " + post.city);
+                    Console.WriteLine("_______________________________________" );
 
 
                 }
