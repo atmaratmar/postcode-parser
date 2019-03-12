@@ -23,7 +23,7 @@ namespace ConsoleApp1
             street_name = Console.ReadLine();
             Console.WriteLine("enter house number");
             door_number = Console.ReadLine();
-            Console.WriteLine("enter enter post code");
+            Console.WriteLine("enter post code");
             City_post_cod = Console.ReadLine();
             Console.WriteLine("enter city");
             City_name = Console.ReadLine();
@@ -99,7 +99,7 @@ namespace ConsoleApp1
                 else if ((door_number.ToLower() != post.house_number.ToString())) { }
                 else
                 {
-                    Console.WriteLine("not found this street name " + street_name);
+                    Console.WriteLine("not found this door_nuber number   "+door_number +" in"+ street_name);
                     break;
 
                 }
