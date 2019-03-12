@@ -64,6 +64,8 @@ namespace ConsoleApp1
             {
                 street = p["data"]["vejnavn"],
                 house_number = p["data"]["husnr"],
+                floor = p["data"]["etage"],
+                side_tv_th_mf_ect = p["data"]["dør"],
                 post_code = p["data"]["postnr"],
                 city = p["data"]["postnrnavn"],
 
@@ -87,7 +89,7 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine("-------------");
                     Console.WriteLine(post.street);
-                    Console.WriteLine(post.house_number);
+                    Console.Write(post.house_number); Console.Write(" "+post.floor); Console.WriteLine(" "+post.side_tv_th_mf_ect);
                     Console.WriteLine(post.post_code);
                     Console.WriteLine(post.city);
                     Console.WriteLine("-------------");
